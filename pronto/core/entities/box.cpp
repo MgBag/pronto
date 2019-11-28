@@ -18,7 +18,7 @@ namespace pronto
   {
     model_ = AddComponent<Model>();
     
-    model_->SetModel("resource/tex_box.gltf");
+    model_->SetModel("resource/khronos/tex_box.gltf");
   }
 
   void Box::Update()

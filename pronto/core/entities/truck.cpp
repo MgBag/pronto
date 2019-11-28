@@ -17,7 +17,7 @@ namespace pronto
     model_(nullptr)
   {
     model_ = AddComponent<Model>();
-    model_->SetModel("resource/truck/truck.gltf");
+    model_->SetModel("resource/khronos/truck/truck.gltf");
   }
 
   void Truck::Update()

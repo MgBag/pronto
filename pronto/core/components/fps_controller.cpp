@@ -35,39 +35,25 @@ namespace pronto
     static float sensitivity = 0.08f;
     static float base_speed = 0.025f;
 
+    // Used for spot or directional lights
+    //if (in.GetKey(Input::Keys::kC) > 0)
+    //{
+    //  Cylinder* cyl = world()->GetEntity<Cylinder>();
+    //  if (cyl == nullptr)
+    //  {
+    //    cyl = world()->CreateEntity<Cylinder>();
+    //  }
+    //  cyl->transform()->SetRotation(trans->rotation());
+    //  cyl->transform()->SetPosition(trans->position());
+    //}
 
-    if (in.GetMouseButton(Input::MouseButton::kLeftButton) == 1)
-    {
-      auto box = world()->CreateEntity<Box>();
-      box->transform()->SetPosition(transform()->position());
-    }
-
-    if (in.GetMouseButton(Input::MouseButton::kMiddleButton) == 2)
-    {
-      Sphere* light = world()->CreateEntity<Sphere>();
-      light->transform()->SetPosition(transform()->position());
-    }
-
-    if (in.GetKey(Input::Keys::kC) > 0)
-    {
-      Cylinder* cyl = world()->GetEntity<Cylinder>();
-
-      if (cyl == nullptr)
-      {
-        cyl = world()->CreateEntity<Cylinder>();
-      }
-
-      cyl->transform()->SetRotation(trans->rotation());
-      cyl->transform()->SetPosition(trans->position());
-    }
-
-    if (in.GetKey(Input::Keys::kR) > 0)
-    {
-      //for (auto& sphere : world()->GetEntities(Sphere::tid()))
-      //{
-      //  sphere->Delete();
-      //}
-    }
+    //if (in.GetKey(Input::Keys::kR) > 0)
+    //{
+    //  for (auto& sphere : world()->GetEntities(Sphere::tid()))
+    //  {
+    //    sphere->Delete();
+    //  }
+    //}
     
     if (in.GetKey(Input::Keys::kOne) == 2)
     {
