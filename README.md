@@ -21,6 +21,8 @@ Adjust movement speed with `[` and `]`\
 
 ## What's next
 Quite a few things are in need of improvement:
+- Convert models to correct handedness
+- Transparency in solid color objects
 - Fully dynamic pipeline state objects
 - Instanced drawing
 - GPU upload pipeline
@@ -29,6 +31,8 @@ Quite a few things are in need of improvement:
 - Multiplatform support
 
 And a few things on the todo:
+- More glTF support
+- Vertex colors
 - Spot lights
 - Directional lights
 - Shadow maps
