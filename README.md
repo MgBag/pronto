@@ -2,10 +2,10 @@
 A work in progress game framework with a lot left to do, see [What's next](#Whats-next)
 
 ### Installation
-Clone using the repo using `--recurse-submodules` or run `git submodule update --init` after cloning.
+[Download](https://github.com/MgBag/pronto//releases/latest) or clone the repo using `--recurse-submodules` or run `git submodule update --init` after cloning.
 
 ### Build 
-Open `Prontal.sln` and compile, set the `game` project as `StartUp project`
+Open `game.exe` or open `Prontal.sln` and compile, set the `game` project as `StartUp project` and run the project.
 
 ### 'Play'
 Fps controls on right mouse button hold with `WASD` and `Space bar`\
